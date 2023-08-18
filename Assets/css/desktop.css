@@ -86,3 +86,18 @@ body {
     width: 10%;
     aspect-ratio: 1/1;
 }
+.hero{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12.5%;
+    
+}
+.hero img{
+    width: 49.375%;
+}
+
+.hero-txt{
+  
+    width: 25.35%;
+}
