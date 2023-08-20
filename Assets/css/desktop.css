@@ -68,9 +68,9 @@ body {
     background: rgba(11, 2, 35, 0.10);
     height: 56px;
     display: flex;
-   gap: 5%;
-   justify-content: center;
-   
+    gap: 5%;
+    justify-content: center;
+
 }
 
 .nav .group1 .right .btn p {
@@ -82,22 +82,101 @@ body {
     font-weight: 500;
     line-height: normal;
 }
-.nav .group1 .right .btn img{
+
+.nav .group1 .right .btn img {
     width: 10%;
     aspect-ratio: 1/1;
 }
-.hero{
+
+.hero {
     width: 75%;
     display: flex;
     justify-content: space-between;
     margin-left: 12.5%;
-    
+
 }
-.hero img{
+
+.hero img {
     width: 49.375%;
 }
 
-.hero-txt{
-  
+.hero-txt {
+
     width: 25.35%;
+    margin-top: 148px;
+}
+
+.hero-txt p {
+    color: #0B0223;
+
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.hero-txt .goat {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.hero-txt div {
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 17px;
+}
+
+.hero-txt div img {
+    width: 7%;
+
+}
+
+.hero-txt div p {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+    margin: 0;
+}
+
+.hero-txt div button {
+    width: 43%;
+    height: 65px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    border: 0px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+.hero-txt div .gorough{
+    background: #4EC5F7;
+    width: 51%;
+}
+.hero-txt :nth-child(6){
+    justify-content: space-between;
+    padding-top: 24px;
 }
