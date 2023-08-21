@@ -147,7 +147,7 @@ body {
 
 .hero-txt div p {
     color: #534C64;
-   
+
     font-family: Work Sans;
     font-size: 20px;
     font-style: normal;
@@ -190,12 +190,85 @@ body {
     display: flex;
     justify-content: end;
     gap: 2.70%;
-  
+
 }
-.hero2 img{
+
+.hero2 img {
     width: 45.20%;
 }
-.hero2-txt{
-    width:27% ;
+
+.hero2-txt {
+    width: 27%;
     margin-right: 12.5%;
+    margin-top: 95px;
+}
+
+.hero2-txt p {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+    /* 166.667% */
+
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.hero2-txt :first-child {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero2-txt button {
+
+
+    width: 40%;
+    height: 65px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    border: none;
+    margin-left: 60%;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.hero2-txt :nth-child(4) {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    margin: 0;
+    /* 187.5% */
+}
+
+.hero2-txt :nth-child(5) {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    margin: 0;
 }
